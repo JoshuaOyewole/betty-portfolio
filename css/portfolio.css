@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.st-heading{
+    padding-bottom: 0.7rem ;
+    font-size: 1.5rem;
+}
+.container{
+    padding:2rem 4rem;
+}
+.text{
+    text-align: center;
+    color: rgb(68, 65, 65);
+    text-align: center;
+    line-height: 1.5;
+}
+.primary-heading{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 4rem;
+   background-image: url(../images/pexels-hasan-albari-1229861.jpg);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.list-item{
+    display: inline-block;
+    padding: 0.5rem;
+}
+.active{
+    color: rgb(243, 241, 241);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(247, 245, 245);
+
+}
+.link-item{
+    text-decoration: none;
+    color: #fff;
+}
+.link-item:hover{
+    color: rgb(226, 99, 99);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(224, 92, 92);
+    transition: 0.6s;
+}
+
+.slideshow{
+    background-image:url(../images/pexels-hasan-albari-1229861.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 17rem 0 0 0;
+    position: relative;
+   
+}
+.main-slide{
+    margin: 7rem 0;
+}
+
+.slide-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 9rem 0 3rem 0;
+   text-align: center;
+   background-color: #fff;
+   color: #000;
+   
+}
+.inner-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+.intro-section{
+    background-color: rgb(248, 241, 238);
+
+}
+.s-th{
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.s-image{
+    margin-top: 14rem;
+    position: absolute;
+    height:auto ;
+    width:220px;
+    border: #fff 2px solid;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px ){
+    nav{
+        padding:1rem 3rem;
+    }
+    
+}
+@media only screen and (max-width: 450px ){
+    .primary-heading{
+        font-size: 1.7rem;
+        font-weight: bolder;
+        
+    }
+    .st-heading{
+        font-size: 1rem;
+
+    }
+    nav{
+        padding:1rem 2rem;
+    }
+}
+
+}
